@@ -2,7 +2,7 @@ import os
 import setuptools
 
 
-__version__ = '0.0.0'
+__version__ = '0.0.1'
 
 
 def readfile(filename):
