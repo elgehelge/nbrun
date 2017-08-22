@@ -12,7 +12,9 @@ import click
 
 # The weird retry param is needed because Jupyter kernels
 # just randomly dies from time to time (slow clap)
-# https://github.com/jupyter/kernel_gateway/issues/131
+# The issue has been fixed just recently in the following
+# pull request and will be part of the next release:
+# https://github.com/jupyter/jupyter_client/pull/279
 def run_notebook(path, timeout=300, retry=3):
     s = time.time()
     ep = nbconvert.preprocessors.ExecutePreprocessor(
