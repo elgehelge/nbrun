@@ -29,7 +29,7 @@ setuptools.setup(
     },
     keywords=["jupyter notebook test run runnable"],
     py_modules=['nbrun'],
-    long_description=readfile('README.md'),
+    long_description=readfile('README.rst'),
     url="https://github.com/elgehelge/nbrun",
     entry_points='''
         [console_scripts]
