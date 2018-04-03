@@ -15,9 +15,10 @@ setuptools.setup(
     description="Verify that notebooks are runnable.",
     install_requires=[
         'click>=6.7',
-        'nbconvert>=5.2.0,<5.3.0',
-        'jupyter_client>=5.1.0,<5.2.0',
-        'ipykernel>=4.6.0,<4.7.0',
+        'nbconvert>=5.2.0,<6.0.0',
+        'jupyter_client>=5.1.0,<6.0.0',
+        'ipykernel>=4.6.0,<5.0.0',
+        'tornado==4.5.3',
     ],
     extras_require={
         'dev': [
