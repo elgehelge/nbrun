@@ -18,7 +18,7 @@ setuptools.setup(
         'nbconvert>=5.2.0,<6.0.0',
         'jupyter_client>=5.1.0,<6.0.0',
         'ipykernel>=4.6.0,<5.0.0',
-        'tornado==4.5.3',
+        'tornado==6.3.3',
     ],
     extras_require={
         'dev': [
